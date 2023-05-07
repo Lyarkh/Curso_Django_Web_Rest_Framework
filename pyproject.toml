@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "curso-django-web-rest-framework"
+version = "0.1.0"
+description = ""
+authors = ["Lyarkh <lcemanuel.emanuel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "curso_django_web_rest_framework"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
